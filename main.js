@@ -22,7 +22,7 @@ const startCount = () => {
     seconds++;
     secondsElement.innerHTML = "0" + seconds;
     decimals = 0;
-    decimalsElement.innerHTML = "0" + 0;
+    decimalsElement.innerHTML = "00";
   }
 
   if (seconds > 9) {
