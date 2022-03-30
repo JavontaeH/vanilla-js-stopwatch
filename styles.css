@@ -1,0 +1,47 @@
+:root {
+    --bg-color: #0033A0;
+    --txt : #fff;
+}
+
+
+body {
+    font-family: "HelveticaNeue-Light",
+    "Helvetica Neue Light",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    "Lucida Grande",
+    sans-serif;
+    background-color: var(--bg-color);
+    color: #fff;
+}
+
+.stopwatch {
+    width: 800px;
+    margin: 30px auto;
+    color: var(--txt);
+    text-align: center;
+}
+h1, h2  {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+
+button {
+    line-height: 50px;
+    font-size: 1em;
+    height: 50px;
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+    color:#fff;
+    border: 1px solid #fff;
+    background-color: var(--bg-color);
+}
+
+button:hover {
+    background-color: var(--txt) !important;
+    color:#0033A0;
+}
